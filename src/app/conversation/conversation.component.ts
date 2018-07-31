@@ -20,7 +20,6 @@ export class ConversationComponent implements OnInit {
     }, (error) => {
       console.log(error);
     });
-    console.log(this.friend);
   }
 
   ngOnInit() {
