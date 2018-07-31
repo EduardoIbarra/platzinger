@@ -1,14 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 .avatarFrameoffline {
-  background: rgba(226,226,226,1);
-  background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
-  background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
-  background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
-  background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #eae5e5 45%, #c1bdbd 47%, #bab6b6 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#eae5e5 45%,#c1bdbd 47%,#bab6b6 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%,#eae5e5 45%,#c1bdbd 47%,#bab6b6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bab6b6',GradientType=0 ); /* IE6-9 */
   text-align: center;
   padding: 5%;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  -webkit-box-shadow: 3px 3px 21px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 21px 1px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 21px 1px rgba(0,0,0,0.75);
   display: inline-block;
 }
