@@ -30,7 +30,7 @@
       </div>
     </div>
     <hr />
-    <b>Amigos ({{friends.length}} / {{friends.length}})</b>
+    <b *ngIf="friends">Amigos ({{friends.length}} / {{friends.length}})</b>
     <div *ngFor="let user of friends | search: query; let i = index" class="disblo marbo5">
         <span routerLink="/conversation/{{user.uid}}">
           <img src="assets/img/logo_live_online.png" class="icon">
