@@ -1,0 +1,13 @@
+#homeContainer {
+  background-image: url(/assets/img/msnbg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#whiteBorderGlassBox {
+  border: 2px solid rgba(255, 255, 255, .75);
+  padding: 8px;
+}
+.homeHeadContainer {
+  background-color: rgba(255, 255, 255, .50);
+}
+
