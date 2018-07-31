@@ -14,3 +14,12 @@
   box-shadow: 3px 3px 21px 1px rgba(0,0,0,0.75);
   display: inline-block;
 }
+.center {
+  text-align: center !important;
+}
+.marto15 {
+  margin-top: 15px;
+}
+.marbo15 {
+  margin-bottom: 15px;
+}
