@@ -10,4 +10,10 @@
 .homeHeadContainer {
   background-color: rgba(255, 255, 255, .50);
 }
-
+.whiteContainerPadded {
+  padding: 15px;
+  background-color: #feffff;
+}
+img.icon {
+  width: 30px;
+}
