@@ -1,4 +1,4 @@
-<div class="conversationContainer bluewhitebg">
+<div class="conversationContainer bluewhitebg" [ngClass]="{'shaker': shake}">
   <div class="row">
     <div class="col-sm-3 maxwi300">
       <div id="conversationSidebar">
@@ -36,7 +36,7 @@
             <img src="assets/img/icons/wink_smile.gif" class="tool">
             <i name="caret-down"></i>
           </div>
-          <div class="item" >
+          <div class="item" (click)="sendZumbido()">
             <img src="assets/img/zumbido.png" class="tool">
           </div>
 
