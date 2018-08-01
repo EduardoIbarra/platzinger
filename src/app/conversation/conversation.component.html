@@ -1,9 +1,48 @@
-<p>
-  {{friend | json}}
-</p>
-<p>
-  {{price | number: '1.5-5'}}
-</p>
-<p>
-  {{today | date: 'fullDate'}}
-</p>
+<div class="conversationContainer bluewhitebg">
+  <div class="row">
+    <div class="col-sm-3 maxwi300">
+      <div id="conversationSidebar">
+        <div class="vh30">
+          <div class="avatarFrameonline">
+            <img src="{{'assets/img/generic_avatar.png'}}" class="avatarImage img-fluid">
+          </div>
+        </div>
+        <div class="vh30"></div>
+        <div class="vh25">
+          <div class="avatarFrameonline">
+            <img src="{{'assets/img/generic_avatar.png'}}" class="avatarImage img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-9">
+      <br />
+      <span class="friendName">Amigo 1</span> (online)
+      <hr />
+      <div class="vh55 overscroll pabo10" id="messageArea">
+      </div>
+      <div class="messageControlsContainer">
+        <textarea class="form-control" cols="30" rows="5" ></textarea>
+        <div id="messageToolBar">
+          <div class="item">
+            <img src="assets/img/icons/regular_smile.gif" class="tool">
+            <i name="caret-down"></i>
+          </div>
+          <div class="item">
+            <img src="assets/img/icons/wink_smile.gif" class="tool">
+            <i name="caret-down"></i>
+          </div>
+          <div class="item" >
+            <img src="assets/img/zumbido.png" class="tool">
+          </div>
+
+          <a class="btn btn-primary btn-sm marri10" accept="image/*">Enviar</a>
+          <label class="custom-file-upload">
+            <input type="file">
+            <i name="image"></i> Seleccionar Imagen
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
